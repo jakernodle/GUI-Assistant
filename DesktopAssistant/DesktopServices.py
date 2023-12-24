@@ -89,3 +89,6 @@ def perform_ocr(image):
 
 def type_text(text):
     pyautogui.typewrite(text, interval=0.025)
+
+def press_return():
+    pyautogui.press('return')
